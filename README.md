@@ -22,16 +22,4 @@ git clone https://github.com/ShellAddicted/BNO055ESP32.git
 ```
 Remember to enable ```Compiler Options -> Enable C++ Exceptions``` using ```make menuconfig```
 
-for more details see [examples/](https://github.com/ShellAddicted/BNO055ESP32/tree/master/examples)
 
-## Wiring
-
-### UART
-PS1 -> 3.3v (HIGH) -> Enables UART protocol  
-SCL -> UART RX (Default: GPIO_NUM_17)  
-SDA -> UART TX (Default: GPIO_NUM_16)
-
-### I2C
-PS1 -> GND (LOW) -> Enables I²C protocol  
-SCL -> SCL (Default: GPIO_NUM_22)  
-SDA -> SDA (Default: GPIO_NUM_21)

@@ -5,11 +5,7 @@ This idf-component provides a C++ Interface for [Bosch-Sensortec's BNO055](https
 Tested on ESP32D0WDQ6 (DevKitC) with [Adafruit's BNO055 Breakout Board](https://www.adafruit.com/product/2472)
 
 #### Supported Interfaces
-- <b>UART</b> - fully Supported.
-- <b>I²C</b> - <b>partially supported*</b>
-
-*I²C is partially supported due to several issues probably caused by clock stretching.  
-currently ***UART is suggested.***
+- <b>I²C</b> 
 
 # Getting Started
 ***NOTE: this code is not (yet) Production Ready.***   
@@ -18,7 +14,7 @@ You can use this library as a component for your project:
 cd <YOUR_PROJECT_ROOT>
 mkdir components/
 cd components/
-git clone https://github.com/ShellAddicted/BNO055ESP32.git
+git clone https://github.com/MS71/esp32-bno055.git
 ```
 Remember to enable ```Compiler Options -> Enable C++ Exceptions``` using ```make menuconfig```
 
